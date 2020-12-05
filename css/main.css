@@ -1,0 +1,207 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family:'Montserrat', sans-serif;
+    color: #000000;
+}
+
+header {
+    height: 113px;
+}
+
+#about {
+    height: 175;
+}
+
+#content {
+    height: 212;
+}
+
+
+/***** Grid *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+#about {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-image {
+    width: 1200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    margin-right: -5px;
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+    padding-bottom: 33px;
+    margin-top: 15px;
+}
+
+
+.reviews {
+    width: 400px;
+    float: left;
+    margin-right: -5px;
+    margin-top: 15px;
+}
+
+.contact {
+    width: 400px;
+    float: left;
+    margin-right: -5px;
+    border-bottom: 1px solid #dedbdc;
+    border-top: 1px solid #dedbdc;
+    padding-bottom: 63px;
+    margin-top: 15px;
+}
+
+footer {
+    width: 1200px;
+}
+   
+/***** Header *****/
+
+header h1 span {
+    color: #77a466;
+}
+
+header h1 {
+    font-size: 30px;
+    padding: 49px 0px 10px 0px;
+    text-transform: uppercase;
+}
+
+nav {
+    float: right;
+    padding-top: 60px;
+}
+
+li {
+    display: inline;
+    padding-left: 15px;
+    padding-right: 8px;
+}
+
+a {
+    color: #77a466;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/***** Hero Image *****/
+
+img {
+    border: 3px solid #77a466;
+    border-left: none;
+    border-right: none;
+}
+
+
+/***** About *****/
+
+#about h2 {
+    color: #77a466;
+    font-size: 18px;
+    padding-top: 10px;
+    text-transform: uppercase;  
+}
+
+#about p {
+    line-height: 25px;
+    margin-right: 49px;
+}
+
+
+/***** Content *****/
+
+
+.menu h3 {
+    font-size: 12px;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
+.menu p {
+    color: #77a466;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.reviews h3 {
+    font-size: 12px;
+    padding-left: 25px;
+    padding-top: 15px;
+    text-transform: uppercase
+}
+
+.reviews p {
+    line-height: 23px;
+    padding-right: 27px;
+    padding-left: 25px;
+    font-size: 16px;
+}
+
+.reviews {
+    border-bottom: 1px solid #dedbdc;
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+    border-top: 1px solid #dedbdc;
+}
+
+
+.contact h3 {
+    font-size: 12px;
+    padding-left: 40px;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
+.contact p {
+    line-height: 25px;
+    padding-left: 40px;
+    font-size: 16px;
+}
+
+/***** Footer *****/
+
+footer {
+    clear: both;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p {
+    font-size: 16px;
+    font-weight:bold;
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+
+footer span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    text-transform: lowercase;    
+}
